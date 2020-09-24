@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Adventure</title>
+    <script>
+      alert("You wake up in a field of grass with nothing but wooden fencing around you and a sign in the distance.");
+      var choice = prompt("Do you 1. Walk up to the sign and read it? or 2. Go back to sleep and hope this was all a dream?");
+      
+      if(choice == 1) {
+        alert('The sign says "If you are reading this you have just teleported yourself to another dimesion." ');
+        
+        choice = prompt("Do you 1. Keep reading hoping it explains how to use your newly gained powers? or 2. Try really hard to go back to sleep and wish this was all over with?");
+        
+        if(choice == 1) {
+          alert("Ha! This was all a trick you are now trapped here forever! a group of people in robes appeared out of nowhere grab and tie you up.");
+          console.log("You wake up in your bed with a vague memory of a field and your body hurts.");
+        } else {
+          console.log("You wake up in your bed thankful that it was only a dream or at least that's what you think.");
+        }
+      } else {
+        console.log("You wake up in the middle of the night thinking that was a weird dream before falling back asleep.");
+      }
+    </script>
+  
+  </head>
+  <body>
+    <h1>Choose your own adventure.</h1>
+  </body>
+</html>
