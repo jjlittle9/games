@@ -1,3 +1,5 @@
+Not entirely sure what is going on with my if statements. 
+
 1. Choose your own adventure
 
     Create a normal HTML file named "adventure.html" with a script tag in the <head>
